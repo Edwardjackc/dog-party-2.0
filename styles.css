@@ -4,7 +4,10 @@
 }
 
 body {
-  font-family:Open sans-serif
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  min-height: 100%;
+  width:100%;
 }
 
 li {
@@ -12,7 +15,8 @@ li {
 }
 .nav__bar {
   background-color:#75e2e6;
-  height:70px;
+  height:80px;
+  border-bottom:3px solid #048eaa
 }
 
 .links {
@@ -28,13 +32,29 @@ li {
   height:200px;
 }
 
+.center__header {
+  color:#ffffff;
+  font-size:2em;
+  font-weight:lighter;
+}
+
 .img__header{
-  margin-top:10px;
+  margin-top:5px;
   height:50px;
+  margin-left:15px;
 }
 
 .btn__top{
   background-color:#75e2e6;
+  width:350px;
+  height:40px;
+  font-size:1em;
+}
+
+.name__input {
+  width:350px;
+  height:40px;
+  margin:15px;
 }
 
 .btn__dogs {
@@ -45,29 +65,50 @@ li {
   font-size:1em;
 }
 
-.center__article {
-  background:url(images/park.jpg);
+.top__section {
+  background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) ,url(images/park.jpg);
   background-position: center center;
   background-size: 100% 100%;
-  height:470px;
+  height:500px;
+  z-index:-1;
 }
 
-.top__section {
-  background-image:;
+.center__article {
+  text-align: center;
+  width:400px;
 }
 
 .bottom__section {
   background-color:#048eaa;
+  height:150px;
+  text-align:center;
+  position: absolute;
+  bottom: -125%;
+  width: 100%; 
 }
 
 .bottom__header {
   color:#ffffff;
 }
 
+.bottom__wrapper {
+  margin-left: 5px
+}
+
+.center__span {
+  font-weight:bold;
+}
+
+.input__label{
+  color:#ffffff;
+  margin-right:100px;
+}
 .container__dog--left {
   float:left;
   width:350px;
   margin-left:40px;
+  text-align: center;
+  height:500px;
 }
 
 .container__dog--center {
@@ -75,6 +116,8 @@ li {
   position: relative;
   left: 10%;
   width:350px;
+  text-align: center;
+  height:500px;
 }
 
 .container__dog--right {
@@ -82,4 +125,15 @@ li {
   float: left;
   position: relative;
   left: 20%;
+  text-align: center;
+  height:500px;
+}
+
+.bottom__img {
+  margin-left: 5px;
+  margin-right:5px;
+}
+
+.para {
+  text-align:left;
 }
