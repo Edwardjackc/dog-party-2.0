@@ -1,0 +1,24 @@
+* {
+  box-sizing:border-box;
+  border:red 1px solid
+}
+
+body {
+  font-family:Open-Sans;
+}
+
+li {
+  text-decoration:none;
+}
+.nav__bar {
+  background-color:#75e2e6;
+}
+
+.links {
+  width:150px;
+  list-style-type: none;
+}
+
+.images {
+  border-radius: 50%;
+}
