@@ -31,10 +31,14 @@ li {
 .img__header{
   margin-top:10px;
   height:50px;
+  margin-left:15px;
 }
 
 .btn__top{
   background-color:#75e2e6;
+  width:350px;
+  height:40px;
+  font-size:1em;
 }
 
 .btn__dogs {
@@ -45,19 +49,22 @@ li {
   font-size:1em;
 }
 
-.center__article {
+.top__section {
   background:url(images/park.jpg);
   background-position: center center;
   background-size: 100% 100%;
-  height:470px;
 }
 
-.top__section {
-  background-image:;
+.center__article {
+  height:470px;
+  text-align: center;
 }
 
 .bottom__section {
   background-color:#048eaa;
+  height:200px;
+  text-align:center;
+
 }
 
 .bottom__header {
@@ -68,6 +75,8 @@ li {
   float:left;
   width:350px;
   margin-left:40px;
+  text-align: center;
+  height:500px;
 }
 
 .container__dog--center {
@@ -75,6 +84,8 @@ li {
   position: relative;
   left: 10%;
   width:350px;
+  text-align: center;
+  height:500px;
 }
 
 .container__dog--right {
@@ -82,4 +93,6 @@ li {
   float: left;
   position: relative;
   left: 20%;
+  text-align: center;
+  height:500px;
 }
