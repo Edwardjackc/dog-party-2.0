@@ -23,8 +23,10 @@ li {
   width:120px;
   list-style-type: none;
   float: right;
+  font-weight:500;
   margin-top:20px;
-  margin-right:10px
+  margin-right:15px;
+  font-weight:500;
 }
 
 .images {
