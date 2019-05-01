@@ -115,9 +115,10 @@ li {
   background-color:#048eaa;
   height:180px;
   text-align:center;
-  position: absolute;
-  bottom: -135%;
-  width: 100%; 
+  position:absolute;
+  bottom:-135%;
+  width:100%; 
+  padding:30px;
 }
 
 .bottom__header {
@@ -162,8 +163,8 @@ li {
 }
 
 .bottom__img {
-  margin-left: 5px;
-  margin-right:5px;
+  margin-left:10px;
+  margin-right:10px;
 }
 
 .para {
