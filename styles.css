@@ -29,7 +29,7 @@ li {
 
 .images {
   border-radius: 50%;
-  border:4px solid #75e2e6;
+  border:4px solid #048eaa;
   height:200px;
 }
 
@@ -47,15 +47,20 @@ li {
 
 .btn__top{
   background-color:#75e2e6;
-  width:350px;
-  height:40px;
+  width:370px;
+  height:50px;
   font-size:1em;
+  border-radius: 3px;
+
 }
 
 .name__input {
-  width:350px;
-  height:40px;
-  margin:15px;
+  width:370px;
+  height:50px;
+  margin-bottom:15px;
+  margin-top:10px;
+  border-radius: 3px;
+
 }
 
 .btn__dogs {
@@ -64,15 +69,31 @@ li {
   height:50px;
   color:#ffffff;
   font-size:1em;
+  border-radius: 3px;
+  width:300px;
+  margin-top:53px;
+}
+
+.btn__center {
+  margin-left:7px;
+  margin-top:30px;
+}
+
+.btn__center--right {
+  margin-top:75px;
 }
 
 .top__section {
   background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) ,url(images/park.jpg);
   background-position: center center;
   background-size: 100% 100%;
-  height:600px;
+  height:550px;
   z-index:-1;
-  margin-top: -32px;
+  padding-top: 15px
+}
+
+.center__form {
+  padding-top:30px;
 }
 
 .center__article {
@@ -109,13 +130,9 @@ li {
   font-weight:bold;
 }
 
-.center__dog {
-  margin-left: 30px;
-}
-
 .input__label{
   color:#ffffff;
-  margin-right: 70px
+  margin-right: 81%
 }
 
 .container__dog--left {
@@ -123,7 +140,7 @@ li {
   width:350px;
   margin-left:40px;
   text-align: center;
-  height:500px;
+  height:600px;
 }
 
 .container__dog--center {
@@ -132,7 +149,7 @@ li {
   left: 10%;
   width:350px;
   text-align: center;
-  height:500px;
+  height:600px;
 }
 
 .container__dog--right {
@@ -141,7 +158,7 @@ li {
   position: relative;
   left: 20%;
   text-align: center;
-  height:500px;
+  height:600px;
 }
 
 .bottom__img {
@@ -151,4 +168,6 @@ li {
 
 .para {
   text-align:left;
+  max-width:300px;
+  margin-left:30px;
 }
