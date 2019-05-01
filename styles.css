@@ -51,7 +51,7 @@ li {
   height:50px;
   font-size:1em;
   border-radius: 3px;
-
+  font-weight:500;
 }
 
 .name__input {
@@ -60,7 +60,6 @@ li {
   margin-bottom:15px;
   margin-top:10px;
   border-radius: 3px;
-
 }
 
 .btn__dogs {
@@ -117,7 +116,8 @@ li {
   text-align:center;
   position: absolute;
   bottom: -135%;
-  width: 100%; 
+  width: 100%;
+  padding-top:30px;
 }
 
 .bottom__header {
@@ -162,8 +162,8 @@ li {
 }
 
 .bottom__img {
-  margin-left: 5px;
-  margin-right:5px;
+  margin-left:10px;
+  margin-right:10px;
 }
 
 .para {
