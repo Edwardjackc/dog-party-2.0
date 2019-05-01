@@ -5,8 +5,8 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  position: relative;
   min-height: 100%;
+  position: relative;
   width:100%;
 }
 
@@ -15,16 +15,16 @@ li {
 }
 .nav__bar {
   background-color:#75e2e6;
-  height:65px;
   border-bottom:3px solid #048eaa
+  height:65px;
 }
 
 .links {
-  width:120px;
-  list-style-type: none;
   float: right;
-  margin-top:20px;
+  list-style-type: none;
   margin-right:10px
+  margin-top:20px;
+  width:120px;
 }
 
 .images {
@@ -34,44 +34,42 @@ li {
 }
 
 .center__header {
-  color:#ffffff;
+  color:hsl(0, 0%, 100%);
   font-size:2em;
   font-weight:lighter;
 }
 
 .img__header{
-  margin-top:8px;
   height:45px;
   margin-left:15px;
+  margin-top:8px;
 }
 
 .btn__top{
   background-color:#75e2e6;
-  width:370px;
-  height:50px;
-  font-size:1em;
   border-radius: 3px;
-
+  font-size:1em;
+  height:50px;
+  width:370px;
 }
 
 .name__input {
-  width:370px;
+  border-radius: 3px;
   height:50px;
   margin-bottom:15px;
   margin-top:10px;
-  border-radius: 3px;
-
+  width:370px;
 }
 
 .btn__dogs {
   background-color:#048eaa;
-  width:350px;
-  height:50px;
+  border-radius: 3px;
   color:#ffffff;
   font-size:1em;
-  border-radius: 3px;
-  width:300px;
+  height:50px;
   margin-top:53px;
+  width:300px;
+  width:350px;
 }
 
 .btn__center {
@@ -84,12 +82,12 @@ li {
 }
 
 .top__section {
-  background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) ,url(images/park.jpg);
   background-position: center center;
   background-size: 100% 100%;
+  background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) ,url(images/park.jpg);
   height:550px;
-  z-index:-1;
   padding-top: 15px
+  z-index:-1;
 }
 
 .center__form {
@@ -97,10 +95,10 @@ li {
 }
 
 .center__article {
+  left: 35%;
+  position: relative;
   text-align: center;
   width:400px;
-  position: relative;
-  left: 35%;
 }
 
 .middle__section {
@@ -113,12 +111,12 @@ li {
 
 .bottom__section {
   background-color:#048eaa;
-  height:180px;
-  text-align:center;
-  position:absolute;
   bottom:-135%;
-  width:100%; 
+  height:180px;
   padding:30px;
+  position:absolute;
+  text-align:center;
+  width:100%; 
 }
 
 .bottom__header {
@@ -138,28 +136,28 @@ li {
 
 .container__dog--left {
   float:left;
-  width:350px;
+  height:600px;
   margin-left:40px;
   text-align: center;
-  height:600px;
+  width:350px;
 }
 
 .container__dog--center {
   float: left;
-  position: relative;
-  left: 10%;
-  width:350px;
-  text-align: center;
   height:600px;
+  left: 10%;
+  position: relative;
+  text-align: center;
+  width:350px;
 }
 
 .container__dog--right {
-  width:350px;
   float: left;
-  position: relative;
-  left: 20%;
-  text-align: center;
   height:600px;
+  left: 20%;
+  position: relative;
+  text-align: center;
+  width:350px;
 }
 
 .bottom__img {
@@ -168,7 +166,7 @@ li {
 }
 
 .para {
-  text-align:left;
-  max-width:300px;
   margin-left:30px;
+  max-width:300px;
+  text-align:left;
 }
