@@ -99,6 +99,10 @@ li {
   font-weight:bold;
 }
 
+.center__dog {
+  margin-left:5px;
+}
+
 .input__label{
   color:#ffffff;
   margin-right:100px;
