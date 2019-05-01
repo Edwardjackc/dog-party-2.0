@@ -1,6 +1,6 @@
 * {
   box-sizing:border-box;
-  border:red 1px solid
+  /* border:red 1px solid */
 }
 
 body {
@@ -39,8 +39,8 @@ li {
 }
 
 .img__header{
-  margin-top:5px;
-  height:50px;
+  margin-top:10px;
+  height:60px;
   margin-left:15px;
 }
 
@@ -59,7 +59,7 @@ li {
 
 .btn__dogs {
   background-color:#048eaa;
-  width:250px;
+  width:350px;
   height:40px;
   color:#ffffff;
   font-size:1em;
@@ -76,6 +76,8 @@ li {
 .center__article {
   text-align: center;
   width:400px;
+  position: relative;
+  left: 35%;
 }
 
 .bottom__section {
@@ -89,24 +91,22 @@ li {
 
 .bottom__header {
   color:#ffffff;
+  font-weight:lighter;
 }
 
-.bottom__wrapper {
-  margin-left: 5px
-}
 
 .center__span {
   font-weight:bold;
 }
 
 .center__dog {
-  margin-left:5px;
+  margin-right: 50px;
 }
 
 .input__label{
   color:#ffffff;
-  margin-right:100px;
 }
+
 .container__dog--left {
   float:left;
   width:350px;

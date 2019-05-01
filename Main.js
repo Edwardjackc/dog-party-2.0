@@ -6,5 +6,5 @@ btn.addEventListener('click',nameUpdate)
 
 function nameUpdate(e) {
   e.preventDefault();
-    nameInput.value ? nameOutput.innerText=nameInput.value : null;
+  nameInput.value ? nameOutput.innerText=nameInput.value :"";
 }
