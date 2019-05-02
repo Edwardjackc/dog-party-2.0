@@ -8,6 +8,7 @@ body {
   position: relative;
   min-height: 100%;
   width:100%;
+  border:solid 2px black
 }
 
 li {
@@ -77,6 +78,7 @@ li {
   border-radius: 3px;
   width:300px;
   margin-top:53px;
+  border:solid 1px #048eaa;
 }
 
 .btn__center {
@@ -122,7 +124,7 @@ li {
   height:180px;
   text-align:center;
   width:100%;
-  padding-top:40px;
+  padding-top:30px;
   clear:both
 }
 
