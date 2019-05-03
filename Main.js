@@ -8,4 +8,4 @@ function nameUpdate(e) {
   e.preventDefault();
   nameInput.value ? nameOutput.innerText=nameInput.value :"";
   nameInput.value =""
-}
+  } 
