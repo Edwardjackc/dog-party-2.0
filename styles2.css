@@ -1,6 +1,6 @@
 * {
   box-sizing:border-box;
-  /* border:red 1px solid */
+  border:red 1px solid
 }
 
 body {
@@ -22,9 +22,9 @@ body {
   width:15%;
   float:left;
   height:100%;
-  border-right:solid black 1px;
+  border-right:solid black 3px;
   font-size:1em;
-  height:1869px;
+  height:1845px;
 }
 
 .center__form {
@@ -87,13 +87,14 @@ body {
   width: 100%;
   height:100%;
   padding-left: 70px;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 .images {
   border-radius:50%;
   border:5px solid #9b969c;
-  width:200px;
+  width: 250px;
+  margin-top:10px
 }
 
 .center__dog {
@@ -114,15 +115,20 @@ body {
 
 .middle__header {
   width:300px;
+  margin-left:55px;
 }
 
 .btn__dogs {
   background-color:#3E3544;
   width:190px;
-  height: 55px;
+  height:55px;
   color:#ffffff;
   font-size:1em;
-  margin-left:955px;
+  position: relative;
+  float:right;
+  right:-52%;
+  margin-top:110px
+
 }
 
 .container__dog--left {
@@ -151,17 +157,27 @@ body {
   right:-0%;
   clear: right;
   height:235px;
+  padding-right: 50px;
 }
 
 .bottom__header {
   color:#ffffff;
   font-size:2em;
   float: right;
-  margin-right: 300px;
+  margin-right: 200px;
   font-weight: 500;
   padding-top: 20px;
 }
 
 .bottom__img {
-  margin:5px;
+  margin:10px;
+  width:50px;
+}
+
+.bottom__media {
+  width:150px;
+  float:right;
+  right:10%;
+  clear:both;
+  margin-top: -75px;
 }

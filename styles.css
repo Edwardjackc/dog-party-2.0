@@ -126,7 +126,7 @@ li {
   text-align:center;
   width:100%;
   padding-top:30px;
-  clear:both
+  /* clear:both */
 }
 
 .bottom__header {
