@@ -12,8 +12,13 @@ function nameUpdate(e) {
   nameInput.value =""
 }
 
+// function toggleDisplayDog(e) {
+//   e.preventDefault(); 
+//   btnDog ?e.target.parentNode.style.visibility="hidden":e.target.parentNode.style.visibility ="visible"
+//   console.log("yo")
+// }
+
 function toggleDisplayDog(e) {
-  e.preventDefault(); 
-  btnDog ?e.target.parentNode.style.visibility="hidden":e.target.parentNode.style.visibility ="visible"
-  console.log("yo")
-}
+  e.preventDefault();
+  document.getElementById("js-dog1").style.visibility = "hidden"
+;}
