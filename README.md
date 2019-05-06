@@ -7,4 +7,6 @@ that is both responsive and utilizes two different css files.
 ![Dog Party Comp](images/Dog-Party-2.0-Comp.jpg)
 
 ![Dog party page1](images/MyComp.jpg)
+
+
 ![Dog party page2] (images/MyComp1.jpg)
